@@ -1,0 +1,6 @@
+W:\C#\AsseblyBrowserProject\GatherData\bin\Debug\GatherData.dll
+W:\C#\AsseblyBrowserProject\GatherData\bin\Debug\GatherData.pdb
+W:\C#\AsseblyBrowserProject\GatherData\obj\Debug\GatherData.csproj.CoreCompileInputs.cache
+W:\C#\AsseblyBrowserProject\GatherData\obj\Debug\GatherData.dll
+W:\C#\AsseblyBrowserProject\GatherData\obj\Debug\GatherData.pdb
+W:\C#\AsseblyBrowserProject\GatherData\obj\Debug\GatherData.csprojAssemblyReference.cache

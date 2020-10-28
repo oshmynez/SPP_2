@@ -1,0 +1,24 @@
+﻿<Window x:Class="AssemblyBrowser.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AssemblyBrowser"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid x:Name="LayoutRoot" Background="White" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Button Grid.Row="0" x:Name="OutputData" Content="Загрузить сборку" Command="ApplicationCommands.Open" Height="30" VerticalAlignment="Top" Margin="10,12,10,0" >
+            <Button.CommandBindings>
+                <CommandBinding Command="Open" Executed="CommandBinding_OpenAssembly" />
+            </Button.CommandBindings>
+        </Button>
+
+        <TreeView Grid.Row="1" x:Name="AssemblyBrowserTreeView">
+            <TextBox x:Name="TextBox" Text=" " BorderBrush="White"></TextBox>     
+        </TreeView>
+    </Grid>
+</Window>

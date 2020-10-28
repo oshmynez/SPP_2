@@ -1,0 +1,5 @@
+W:\C#\AsseblyBrowserProject\TestAssembly\bin\Debug\TestAssembly.dll
+W:\C#\AsseblyBrowserProject\TestAssembly\bin\Debug\TestAssembly.pdb
+W:\C#\AsseblyBrowserProject\TestAssembly\obj\Debug\TestAssembly.csproj.CoreCompileInputs.cache
+W:\C#\AsseblyBrowserProject\TestAssembly\obj\Debug\TestAssembly.dll
+W:\C#\AsseblyBrowserProject\TestAssembly\obj\Debug\TestAssembly.pdb
